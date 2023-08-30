@@ -1,0 +1,8 @@
+{
+  "modules": [
+    { "id": "includedContent-header", "file": "/site/html/modules/header.html" },    
+    { "id": "includedContent-slider", "file": "/site/html/modules/slider.html" },
+    { "id": "includedContent-teste", "file": "/site/html/modules/teste.html" },
+    { "id": "includedContent-footer", "file": "/site/html/modules/footer.html" }
+  ]
+}
