@@ -68,8 +68,19 @@ body {
   color: #FFF;
 }
 
+.btn-preto:hover {
+  border: #000 1px solid;
+  background-color: #FFF;
+  color: #000;
+}
+
 .text-white {
   color: #FFF;
+}
+
+.links-texto {
+  text-decoration: none !important;
+  color: #000 !important;
 }
 
 /* ========= MENU ========= */
