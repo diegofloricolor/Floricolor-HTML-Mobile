@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
 
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		
-		<title>Floricolor | Álbuns Digitais</title>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<meta name="description" content="A Floricolor existe desde 1979 como laboratório industrial de fotografia, prestando serviços exclusivamente para 
+	<title>Floricolor | Álbuns Digitais</title>
+
+	<meta name="description" content="A Floricolor existe desde 1979 como laboratório industrial de fotografia, prestando serviços exclusivamente para 
 			fotógrafos profissionais. Em 2002 reconverteu o laboratório para a produção exclusiva de álbuns digitais. Hoje, mais de 50 países em três continentes 
-			confiam a produção dos seus serviços à FLORIcolor. " />
+			confiam a produção dos seus serviços à FLORIcolor." />
 
-		<!-- COOKIES START -->
-		<!-- <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent/3.1.1/cookieconsent.min.css" />
+	<!-- COOKIES START -->
+	<!-- <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent/3.1.1/cookieconsent.min.css" />
 		<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent/3.1.1/cookieconsent.min.js"></script>
 
 		<script>
@@ -37,60 +37,277 @@
 				});
 			});
 		</script> -->
-		<!-- COOKIES END -->
+	<!-- COOKIES END -->
 
-		<!-- Chamadas do Slick Carousel -->
-		<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-		<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+	<!-- FAVICONS -->
+	<link rel="icon" href="/site/images/floricolorFavicon.jpg">	
+	<link rel="apple-touch-icon" href="/site/images/floricolorFavicon.jpg">
+	<meta name="msapplication-TileImage" content="/site/images/floricolorFavicon.jpg">
 
-		<!-- Chamadas de jQuery -->
-		<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.1/jquery-migrate.min.js"></script>
+	<!-- Chamadas do Slick Carousel -->
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
 
-		<!-- jQuery Autocomplete -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.devbridge-autocomplete/1.4.11/jquery.autocomplete.min.js"></script>
-		<script type="text/javascript" src="/site/js/currency-autocomplete.js"></script>
+	<!-- Chamadas de jQuery -->
+	<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.1/jquery-migrate.min.js"></script>
 
-		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-		<script type="text/javascript"  src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>		
-		
-		<!-- Font Awesome Icons -->
-		<script src="https://kit.fontawesome.com/29edc2682a.js" crossorigin="anonymous"></script>
+	<!-- jQuery Autocomplete -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.devbridge-autocomplete/1.4.11/jquery.autocomplete.min.js"></script>
+	<script type="text/javascript" src="/site/js/currency-autocomplete.js"></script>
 
-		<!-- Google Fonts -->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;500;700&display=swap" rel="stylesheet">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+		integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+		integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+		crossorigin="anonymous"></script>
 
-		<script type="text/javascript" src="site/js/global.js"></script>		
-		<!-- <link rel="stylesheet" href="site/css/client.css"> -->
-		<link rel="stylesheet" href="site/css/global.css">
-		
-	</head>
+	<!-- Font Awesome Icons -->
+	<script src="https://kit.fontawesome.com/29edc2682a.js" crossorigin="anonymous"></script>
 
-	<body>
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;500;700&display=swap" rel="stylesheet">
+
+	<script type="text/javascript" src="site/js/global.js"></script>
+	<!-- <link rel="stylesheet" href="site/css/client.css"> -->
+	<link rel="stylesheet" href="site/css/global.css">
+
+</head>
+
+<body>
 
 	<!-- ========= BODY ========= -->
-	
-	<div>
+
+	<!-- ========= HEADER ========= -->
+
+	<nav class="navbar navbar-expand-lg">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">
+				<img src="/site/images/FloricolorLogo.png" alt="Floricolor" style="width: 10rem;">
+			</a>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item dropdown nav-item-desktop">
+						<a class="nav-link nav-link-header dropdown-toggle show" href="#" role="button" data-bs-toggle="dropdown"
+							aria-expanded="false">
+							Produtos</a>
+						<div class="dropdown-menu w-100 dropdown-menu-align-left">
+
+							<div class="dropdown-submenu w-100" aria-labelledby="navbarDropdown">
+								<div class="submenu row">
+
+									<div class="col-2 menu-column-1 px-2 py-2">
+										<a href="/prints" class="dropdown-item pb-2">Coleções
+											<i class="fa fa-caret-right float-sm-end pt-1 px-3" aria-hidden="true"></i></a>
+
+										<a href="/albums" class="dropdown-item pb-2">Livros
+											<i class="fa fa-caret-right float-sm-end pt-1 px-3" aria-hidden="true"></i></a>
+
+										<a href="/books" class="dropdown-item pb-2">Books
+											<i class="fa fa-caret-right float-sm-end pt-1 px-3" aria-hidden="true"></i></a>
+
+										<a href="/walldisplay" class="dropdown-item pb-2">Lembranças
+											<i class="fa fa-caret-right float-sm-end pt-1 px-3" aria-hidden="true"></i></a>
+
+										<a href="/framing" class="dropdown-item pb-2">Acessórios
+											<i class="fa fa-caret-right float-sm-end pt-1 px-3" aria-hidden="true"></i></a>
+
+										<a href="/presentation" class="dropdown-item pb-2">Decoração
+											<i class="fa fa-caret-right float-sm-end pt-1 px-3" aria-hidden="true"></i></a>
+
+										<a href="/usb-products" class="dropdown-item pb-2">Packaging
+											<i class="fa fa-caret-right float-sm-end pt-1 px-3" aria-hidden="true"></i></a>
+
+										<a href="/giftware-marketing" class="dropdown-item pb-2">Impressões
+											<i class="fa fa-caret-right float-sm-end pt-1 px-3" aria-hidden="true"></i></a>
+
+										<a href="/samples" class="dropdown-item pb-2">Materiais e Novidades
+											<i class="fa fa-caret-right float-sm-end pt-1 px-3" aria-hidden="true"></i></a>
+									</div>
+
+									<div class="col-10 produtosLista">
+
+										<div class="col-9 produtos">
+											<div class="p-2 my-0 align-self-center">Acrylic Collection</div>
+											<div class="p-2 my-0 align-self-center">Álbum de Pais</div>
+											<div class="p-2 my-0 align-self-center">Alma Collection</div>
+											<div class="p-2 my-0 align-self-center">Antique Collection</div>
+											<div class="p-2 my-0 align-self-center">Art Deco Collection</div>
+											<div class="p-2 my-0 align-self-center">Auctor Collection</div>
+											<div class="p-2 my-0 align-self-center">Baby & Kids Collection</div>
+											<div class="p-2 my-0 align-self-center">Basic Collection</div>
+											<div class="p-2 my-0 align-self-center">Black Matte Collection</div>
+											<div class="p-2 my-0 align-self-center">Blossom Collection</div>
+											<div class="p-2 my-0 align-self-center">Bold Collection 150</div>
+											<div class="p-2 my-0 align-self-center">Bold Collection 25</div>
+											<div class="p-2 my-0 align-self-center">Boudoir Collection</div>
+											<div class="p-2 my-0 align-self-center">Customized Collection</div>
+											<div class="p-2 my-0 align-self-center">Dharka Collection</div>
+											<div class="p-2 my-0 align-self-center">Duo Collection</div>
+											<div class="p-2 my-0 align-self-center">Eco Collection</div>
+											<div class="p-2 my-0 align-self-center">Eco Collection Kids</div>
+											<div class="p-2 my-0 align-self-center">Japanese Collection</div>
+											<div class="p-2 my-0 align-self-center">Kant Collection</div>
+											<div class="p-2 my-0 align-self-center">Minimalis Collection</div>
+											<div class="p-2 my-0 align-self-center">Parma Collection</div>
+											<div class="p-2 my-0 align-self-center">Puer Collection</div>
+											<div class="p-2 my-0 align-self-center">Retro Collection</div>
+											<div class="p-2 my-0 align-self-center">Story Collection</div>
+											<div class="p-2 my-0 align-self-center">Studio Collection</div>
+											<div class="p-2 my-0 align-self-center">The Concept Collection</div>
+											<div class="p-2 my-0 align-self-center">Touch Collection</div>
+											<div class="p-2 my-0 align-self-center">Vintage Collection</div>
+											<div class="p-2 my-0 align-self-center">Volluto Collection</div>
+											<div class="p-2 my-0 align-self-center">Wood Collection</div>
+										</div>
+
+										<div class="col-3 menu-column-1 g-0">
+											<img src="/site/images/02_home/Alma Collection Home.webp" class="img-fluid py-3" alt="">
+											<p class="produtos">Legenda do Produto</p>
+										</div>
+									</div>
+
+									<!-- <div class="col-15 w-100 px-3 pb-3 d-none d-xxl-block">
+											<div class="row w-100 g-0 products-menu-title">
+												<a href="/prints" class="section-heading dropdown-item-prints products-menu-heading">Prints</a></div>
+							
+												<a href="/prints" class="dropdown-header dropdown-item-prints pb-2">Popular Products</a>
+													<a href="/prints/prints-mounting/photoprints" class="dropdown-item dropdown-item-products">Photographic Prints </a>
+													<a href="/prints/prints-mounting/giclee-fineartprints" class="dropdown-item dropdown-item-products">Giclée Fine Art Prints </a>
+													<a href="/prints/packaging-presentation/folio-box" class="dropdown-item dropdown-item-products">Folio Box
+														<span class="badge badge-pill ms-2 menu-new"><i class="fa fa-heart fa-xs fa-inverse" aria-hidden="true"></i><span class="menu-badge ps-1">NEW</span></span></a>
+													<a href="/prints" class="dropdown-item dropdown-item-prints products-menu-hyperlink pb-2 text-wrap">View all popular products &gt;</a>
+										</div>                  
+										<div class="col-15 w-100 px-3 pb-3">
+											<div class="row w-100 g-0 products-menu-title d-none d-lg-block d-xxl-none"><a href="/prints"
+													class="section-heading dropdown-item-prints products-menu-heading">Prints</a></div>
+							
+											<div class="row w-100 g-0 products-menu-title d-none d-xxl-block"></div><a
+												href="/prints?filter1=Prints Mounting" class="dropdown-header dropdown-item-prints pb-2">Prints &amp;
+												Mounting</a><a href="/prints/prints-mounting/photoprints"
+												class="dropdown-item dropdown-item-products">Photographic Prints </a><a
+												href="/prints/prints-mounting/giclee-fineartprints"
+												class="dropdown-item dropdown-item-products">Giclée Fine Art Prints </a><a
+												href="/prints/prints-mounting/mattedprints" class="dropdown-item dropdown-item-products">Matted
+												Prints </a><a href="/prints?filter1=Print USB Combinations"
+												class="dropdown-header dropdown-item-prints pb-2 pt-3">Print &amp; USB Combinations</a><a
+												href="/prints/combinations/prints-usb-box" class="dropdown-item dropdown-item-products">Print &amp;
+												USB Box </a><a href="/prints/combinations/prints-wooden-usb-box"
+												class="dropdown-item dropdown-item-products">Print &amp; Wooden USB Box </a><a
+												href="/prints?filter1=Qualification Prints"
+												class="dropdown-header dropdown-item-prints pb-2 pt-3">Qualification Prints</a><a
+												href="/prints?filter1=Qualification Prints" class="dropdown-item dropdown-item-products">MPA
+												Qualification Prints </a><a href="/prints?filter1=Qualification Prints"
+												class="dropdown-item dropdown-item-products">SWPP Qualification Prints </a>
+										</div>
+										<div class="col-15 w-100 px-3 pb-3">
+											<div class="row w-100 g-0 products-menu-title d-none d-lg-block">
+												<div class="w-100"><a href="/prints" class="dropdown-header dropdown-item-prints"><span
+															class="badge badge-pill ms-2 mt-1 p-2 badge-prints float-right"><span class="menu-badge-title ps-1">View
+																All <span class="ps-3">&gt;</span></span></span></a></div>
+											</div><a href="/prints?filter1=Packaging Presentation"
+												class="dropdown-header dropdown-item-prints pb-2">Packaging &amp; Presentation</a><a
+												href="/prints/packaging-presentation/printbox" class="dropdown-item dropdown-item-products">Print
+												Box </a><a href="/prints/packaging-presentation/mini-print-box"
+												class="dropdown-item dropdown-item-products">Mini Print Box </a><a
+												href="/prints/packaging-presentation/folio-box" class="dropdown-item dropdown-item-products">Folio
+												Box<span class="badge badge-pill ms-2 menu-new"><i class="fa fa-heart fa-xs fa-inverse"
+														aria-hidden="true"></i><span class="menu-badge ps-1"> NEW</span></span></a><a
+												href="/prints/packaging-presentation/wooden-mini-print-box"
+												class="dropdown-item dropdown-item-products">Wooden Mini Print Box </a><a
+												href="/prints/packaging-presentation/boutiquepackaging"
+												class="dropdown-item dropdown-item-products">Boutique Packaging </a><a
+												href="/prints/packaging-presentation/classic-strut-mounts"
+												class="dropdown-item dropdown-item-products">Classic Strut Mounts </a><a
+												href="/prints/packaging-presentation/transparent-sleeve"
+												class="dropdown-item dropdown-item-products">Transparent Sleeves </a>
+										</div>                  
+										<div class="col-35 w-100 d-none d-lg-block ps-5">
+											<img src="https://loxleycolour.azureedge.net/images/prints/LoxleyColour-Collections-Prints.jpg" class="img-fluid imgMenu" alt="Prints">            
+											<div class="row w-100 g-0 py-3 section-paragraph perfect-for">
+												<p style="font-size: 15px;">
+													<strong style="font-size: 13pt;">
+														<span style="color: #d90368;">Prints</span><br></strong>
+														<span style="font-size: 11pt;">Prints are the foundation of Loxley Colour and are where we
+														started over 30 years ago.</span></p>
+											</div>
+										</div> -->
+
+								</div>
+							</div>
+
+						</div>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="#">Empresa</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Ajuda</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contacto</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Blog</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">FOS</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Área Reservada</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Login</a>
+					</li>
+
+				</ul>
+
+				<form class="d-flex align-items-center" role="search">
+
+					<div class="dropdown" data-bs-theme="light">
+						<button class="btn dropdown-toggle" type="button" id="dropdownMenuButtonLight" data-bs-toggle="dropdown"
+							aria-expanded="false">
+							Idioma
+						</button>
+						<ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonLight">
+							<li><a href="#" class="px-2 idiomas" onclick="setLanguage('pt')">Português</a></li>
+							<li><a href="#" class="px-2 idiomas" onclick="setLanguage('en')">Inglês</a></li>
+							<li><a href="#" class="px-2 idiomas" onclick="setLanguage('es')">Espanhol</a></li>
+							<li><a href="#" class="px-2 idiomas" onclick="setLanguage('fr')">Francês</a></li>
+						</ul>
+					</div>
+
+					<input id="autocomplete" name="currency" type="text" placeholder="Pesquisar" 
+						class="mx-2 p-2 psqCampo" autocomplete="off" />						
+					<i class="fa-solid fa-magnifying-glass fa-lg"></i>
+
+				</form>
+
+			</div>
+		</div>
+	</nav>
+
+	<!-- <div>
 		<div id="includedContent-header"></div>
-	</div>
-	
-	
+	</div> -->
+
 	<!-- ========= SLIDER ========= -->
-	
+
 	<div class="classSlick">
 		<div class="image">
 			<a href="https://www.floricolor.pt/pt/embossingpersonalizado/">
-				<img src="https://floricolor.com/wp-content/uploads/2023/08/Embossing-Pers-PT.webp" 
-				style="width: 100%" />
+				<img src="https://floricolor.com/wp-content/uploads/2023/08/Embossing-Pers-PT.webp" style="width: 100%" />
 			</a>
 		</div>
 		<div class="image">
 			<a href="https://floricolor.com/gilding/">
-				<img src="https://floricolor.com/wp-content/uploads/2023/04/Gilding-Personalizado-PT.webp" 
-				style="width: 100%" />
+				<img src="https://floricolor.com/wp-content/uploads/2023/04/Gilding-Personalizado-PT.webp"
+					style="width: 100%" />
 			</a>
 		</div>
 		<div class="image">
@@ -106,231 +323,240 @@
 			</a>
 		</div>
 	</div>
-	
+
 	<!-- <div>
 				<div id="includedContent-slider"></div>
 			</div> -->
 
 	<!-- ========= CATEGORIAS ========= -->
-		
-		<div class="container">
-			<div class="row mt-5 mb-5">
-		
-				<div class="col-12 col-xl-6 col-md-12 col-sm-12 p-2">
-					<a href="https://floricolor.com/produtos-casamento/">
-						<div class="categoria casamento">
-							<div class="position-absolute bottom-0" style="left: 1rem;">
-								<h3>CASAMENTO</h3>
-							</div>
+
+	<div class="container">
+		<div class="row mt-5 mb-5">
+
+			<div class="col-12 col-xl-6 col-md-12 col-sm-12 p-2">
+				<a href="https://floricolor.com/produtos-casamento/">
+					<div class="categoria casamento">
+						<div class="position-absolute bottom-0" style="left: 1rem;">
+							<h3>CASAMENTO</h3>
 						</div>
-					</a>
-				</div>
-		
-				<div class="col-12 col-xl-6 col-md-12 col-sm-12 p-2">
-					<a href="https://floricolor.com/produtos-boudoir/">
+					</div>
+				</a>
+			</div>
+
+			<div class="col-12 col-xl-6 col-md-12 col-sm-12 p-2">
+				<a href="https://floricolor.com/produtos-boudoir/">
 					<div class="categoria boudoir">
 						<div class="position-absolute bottom-0" style="left: 1rem;">
 							<h3>BOUDOIR</h3>
 						</div>
-					</div></a>
-				</div>			
-		
-				<div class="col-12 col-xl-6 col-md-12 col-sm-12 p-2">
-					<a href="https://floricolor.com/produtos-studio/">
+					</div>
+				</a>
+			</div>
+
+			<div class="col-12 col-xl-6 col-md-12 col-sm-12 p-2">
+				<a href="https://floricolor.com/produtos-studio/">
 					<div class="categoria studio">
 						<div class="position-absolute bottom-0" style="left: 1rem;">
 							<h3>STUDIO</h3>
 						</div>
-					</div></a>
-				</div>
-		
-				<div class="col-12 col-xl-6 col-md-12 col-sm-12 p-2">
-					<a href="https://floricolor.com/produtos-newborn/">
+					</div>
+				</a>
+			</div>
+
+			<div class="col-12 col-xl-6 col-md-12 col-sm-12 p-2">
+				<a href="https://floricolor.com/produtos-newborn/">
 					<div class="categoria newborn">
 						<div class="position-absolute bottom-0" style="left: 1rem;">
 							<h3>NEW BORN</h3>
 						</div>
-					</div></a>
-				</div>
-		
-			</div>		
-		</div>
-
-		<!-- ========= A FLORICOLOR ========= -->			
-
-		<div class="container-fluid p-3 fundo-cinza">
-			<div class="container">
-				<div class="row mt-5 mb-5">
-		
-					<div class="col-12 col-xl-6 col-md-6 col-sm-12 align-self-center">
-						<h5>A FLORICOLOR</h5>
-						<p>A Floricolor é um laboratório de fotografia português de renome mundial,
-							que é referência na Europa e no mundo, exportando para mais de 50 países.
-							A sua dimensão global faz com que a Floricolor seja um dos maiores players
-							europeus no mercado profissional de fotografia. Ao serviço de fotógrafos
-							profissionais desde 1979, a Floricolor dispõe atualmente de instalações
-							topo de gama com uma área de 10.000m2 e conta com cerca de 90 colaboradores
-							altamente qualificados.</p>
 					</div>
-		
-					<div class="col-xl-6 col-md-6 col-sm-12 align-self-center">
-						<div style="padding:56.25% 0 0 0;position:relative;">
-							<iframe src="https://player.vimeo.com/video/819887897?h=c9c3562eac"
-								style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
-								allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-						</div>
-						<script src="https://player.vimeo.com/api/player.js"></script>
+				</a>
+			</div>
 
+			<div class="col-12 col-xl-12 col-md-12 col-sm-12">
+				<p class="text-center fst-italic" style="font-weight: 200;">Imagens por: David Bastianoni, Jenn Bruno Smith, Bea Pastor e Tribo Fotografia</p>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- ========= A FLORICOLOR ========= -->
+
+	<div class="container-fluid p-3 fundo-cinza">
+		<div class="container">
+			<div class="row mt-5 mb-5">
+
+				<div class="col-12 col-xl-6 col-md-6 col-sm-12 align-self-center">
+					<h3>A FLORICOLOR</h3>
+					<p style="font-weight: 200;">A Floricolor é um laboratório de fotografia português de renome mundial,
+						que é referência na Europa e no mundo, exportando para mais de 50 países.
+						A sua dimensão global faz com que a Floricolor seja um dos maiores players
+						europeus no mercado profissional de fotografia. Ao serviço de fotógrafos
+						profissionais desde 1979, a Floricolor dispõe atualmente de instalações
+						topo de gama com uma área de 10.000m2 e conta com cerca de 90 colaboradores
+						altamente qualificados.</p>
+				</div>
+
+				<div class="col-xl-6 col-md-6 col-sm-12 align-self-center">
+					<div style="padding:56.25% 0 0 0;position:relative;">
+						<iframe src="https://player.vimeo.com/video/819887897?h=c9c3562eac"
+							style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
+							allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 					</div>
-		
+					<script src="https://player.vimeo.com/api/player.js"></script>
+
 				</div>
+
 			</div>
 		</div>
+	</div>
 
-		<!-- ========= COLEÇÕES EM DESTAQUE ========= -->
+	<!-- ========= COLEÇÕES EM DESTAQUE ========= -->
 
-		<div class="container mt-5 mb-5">
-		
-			<h2 class="text-center mb-4">COLEÇÕES EM DESTAQUE</h2>
-		
-			<div class="row justify-content-center">
-				<div class="col-xl-4 col-md-4 col-sm-6 col-12 py-2">
-					<a href="https://floricolor.com/duo-collection/">
-						<img src="/site/images/02_home/Alma Collection Home.webp" alt="Alma Collection" class="img-fluid">
-					</a>
-					<h5 class="text-center">Alma Collection</h5>		
+	<div class="container mt-5 mb-5">
+
+		<h2 class="text-center mb-4">COLEÇÕES EM DESTAQUE</h2>
+
+		<div class="row justify-content-center">
+			<div class="col-xl-4 col-md-4 col-sm-6 col-12 py-2">
+				<a href="https://floricolor.com/duo-collection/">
+					<img src="/site/images/02_home/Alma Collection Home.webp" alt="Alma Collection" class="img-fluid">
+				</a>
+				<h5 class="text-center">Alma Collection</h5>
+			</div>
+
+			<div class="col-xl-4 col-md-4 col-sm-6 col-12 py-2">
+				<a href="https://floricolor.com/alma-collection/">
+					<img src="/site/images/02_home/Antique Collection Home.webp" alt="Antique Collection" class="img-fluid">
+				</a>
+				<h5 class="text-center">Antique Collection</h5>
+			</div>
+
+			<div class="col-xl-4 col-md-4 col-sm-6 col-12 py-2">
+				<a href="https://floricolor.com/antique-collection/">
+					<img src="/site/images/02_home/Duo Collection Home.webp" alt="Duo Collection" class="img-fluid">
+				</a>
+				<h5 class="text-center">Duo Collection</h5>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- ========= PORQUÊ FLORICOLOR ========= -->
+
+	<div class="container-fluid p-3 fundo-cinza">
+		<div class="container">
+			<div class="row mt-3 mb-3 align-items-center">
+
+				<div class="col-xl-3 col-md-3 col-sm-12 col-12">
+					<img src="/site/images/02_home/FloricolorEmpresaHome.webp" alt="Floricolor" class="img-fluid">
 				</div>
-		
-				<div class="col-xl-4 col-md-4 col-sm-6 col-12 py-2">
-					<a href="https://floricolor.com/alma-collection/">
-						<img src="/site/images/02_home/Antique Collection Home.webp" alt="Antique Collection" class="img-fluid">
+
+				<div class="col-xl-9 col-md-9 col-sm-12 col-12 align-items-center">
+					<h3>PORQUÊ FLORICOLOR?</h3>
+					<p style="font-weight: 200;">Com mais de 40 anos de experiência, a Floricolor é uma referência 
+						no mercado de fotografia profissional. Os mais de 20.000 clientes satisfeitos são a prova de 
+						que os nossos produtos atendem às expectativas dos fotógrafos profissionais mais exigentes.</p>
+
+					<a href="https://floricolor.com/empresa/">
+						<button type="button" class="btn btn-preto">VER MAIS</button>
 					</a>
-					<h5 class="text-center">Antique Collection</h5>		
 				</div>
-		
-				<div class="col-xl-4 col-md-4 col-sm-6 col-12 py-2">
-					<a href="https://floricolor.com/antique-collection/">
-						<img src="/site/images/02_home/Duo Collection Home.webp" alt="Duo Collection" class="img-fluid">
-					</a>
-					<h5 class="text-center">Duo Collection</h5>		
-				</div>
-		
+
 			</div>
 		</div>
+	</div>
 
-		<!-- ========= PORQUÊ FLORICOLOR ========= -->
+	<!-- ========= PRODUTOS ========= -->
 
-		<div class="container-fluid p-3 fundo-cinza">
-			<div class="container">
-				<div class="row mt-3 mb-3 align-items-center">				
-		
-					<div class="col-xl-3 col-md-3 col-sm-12 col-12">
-						<img src="/site/images/02_home/FloricolorEmpresaHome.webp" alt="Floricolor" class="img-fluid">
-					</div>
-		
-					<div class="col-xl-9 col-md-9 col-sm-12 col-12 align-items-center">
-						<h3>PORQUÊ FLORICOLOR?</h3>
-						<p>Com mais de 40 anos de experiência, a Floricolor é uma referência no mercado de 
-							fotografia profissional. Os mais de 20 000 clientes satisfeitos são a prova de que os 
-							nossos produtos atendem às expectativas dos fotógrafos profissionais mais exigentes.</p>
+	<div class="container mt-5 mb-5">
 
-						<a href="https://floricolor.com/empresa/">
-							<button type="button" class="btn btn-preto">VER MAIS</button>
-						</a>
-					</div>					
+		<h2 class="text-center mb-3">PRODUTOS</h2>
 
+		<div class="row justify-content-center">
+
+			<div class="col-xl-3 col-md-6 col-12">
+				<a href="https://floricolor.com/colecoes/">
+					<img src="/site/images/02_home/Produtos-Home-Colecoes.webp" alt="Alma Collection" class="img-fluid">
+				</a>
+				<p class="text-center links-texto">Coleções</p>
+			</div>
+
+			<div class="col-xl-3 col-md-6 col-12">
+				<a href="https://floricolor.com/livros/">
+					<img src="/site/images/02_home/Produtos-Home-Livros.webp" alt="Alma Collection" class="img-fluid">
+				</a>
+				<p class="text-center">Livros</p>
+			</div>
+
+			<div class="col-xl-3 col-md-6 col-12">
+				<a href="https://floricolor.com/lembrancas/">
+					<img src="/site/images/02_home/Produtos-Home-Lembrancas.webp" alt="Alma Collection" class="img-fluid">
+				</a>
+				<p class="text-center">Lembranças</p>
+			</div>
+
+			<div class="col-xl-3 col-md-6 col-12">
+				<a href="https://floricolor.com/acessorios/">
+					<img src="/site/images/02_home/Produtos-Home-Acessorios.webp" alt="Alma Collection" class="img-fluid">
+				</a>
+				<p class="text-center">Acessórios</p>
+			</div>
+
+			<div class="col-xl-3 col-md-6 col-12">
+				<a href="https://floricolor.com/decoracao/">
+					<img src="/site/images/02_home/Produtos-Home-Decoracoes.webp" alt="Alma Collection" class="img-fluid">
+				</a>
+				<p class="text-center">Decoração</p>
+			</div>
+
+			<div class="col-xl-3 col-md-6 col-12">
+				<a href="https://floricolor.com/packaging/">
+					<img src="/site/images/02_home/Produtos-Home-Packaging.webp" alt="Alma Collection" class="img-fluid">
+				</a>
+				<p class="text-center">Packaging</p>
+			</div>
+
+			<div class="col-xl-3 col-md-6 col-12">
+				<a href="https://floricolor.com/impressoes/">
+					<img src="/site/images/02_home/Produtos-Home-Impressoes.webp" alt="Alma Collection" class="img-fluid">
+				</a>
+				<p class="text-center">Impressões</p>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- ========= A FLORICOLOR ========= -->
+
+	<div class="container-fluid eco-friendly p-4">
+		<div class="container">
+			<div class="row mt-5 mb-5">
+
+				<div class="col-xl-6 col-md-6 col-sm-12 col-12">
+					<img src="/site/images/02_home/Eco-Friendly-Branco-Home.webp" alt="Floricolor" class="img-fluid">
 				</div>
+
+				<div class="col-12 col-xl-6 col-md-6 col-sm-12 align-self-center">
+					<h2 class="text-white text-left">SUSTENTABILIDADE</h2>
+					<p class="text-white">Faz parte dos nossos objetivos reduzir a pegada ambiental, melhorando o processo de
+						produção e
+						tornando-o progressivamente mais amigo do ambiente.
+						<br><br>
+						Com a impressão a jato de tinta JetPress 750S, não apenas temos tecnologia de impressão de
+						qualidade superior, mas também somos muito mais amigáveis ao meio ambiente. A tecnologia de
+						impressão a jato de tinta não utiliza o processo químico de revelação fotográfica.
+					</p>
+				</div>
+
 			</div>
 		</div>
+	</div>
 
-		<!-- ========= PRODUTOS ========= -->
 
-		<div class="container mt-5 mb-5">
-		
-			<h2 class="text-center mb-3">PRODUTOS</h2>
-		
-			<div class="row justify-content-center">
-		
-				<div class="col-xl-3 col-md-6 col-12">
-					<a href="https://floricolor.com/colecoes/">
-						<img src="/site/images/02_home/Produtos-Home-Colecoes.webp" alt="Alma Collection" class="img-fluid">
-					</a>
-					<p class="text-center links-texto">Coleções</p>
-				</div>
-		
-				<div class="col-xl-3 col-md-6 col-12">
-					<a href="https://floricolor.com/livros/">
-						<img src="/site/images/02_home/Produtos-Home-Livros.webp" alt="Alma Collection" class="img-fluid">
-					</a>
-					<p class="text-center">Livros</p>
-				</div>
-		
-				<div class="col-xl-3 col-md-6 col-12">
-					<a href="https://floricolor.com/lembrancas/">
-						<img src="/site/images/02_home/Produtos-Home-Lembrancas.webp" alt="Alma Collection" class="img-fluid">
-					</a>
-					<p class="text-center">Lembranças</p>
-				</div>
-		
-				<div class="col-xl-3 col-md-6 col-12">
-					<a href="https://floricolor.com/acessorios/">
-						<img src="/site/images/02_home/Produtos-Home-Acessorios.webp" alt="Alma Collection" class="img-fluid">
-					</a>
-					<p class="text-center">Acessórios</p>
-				</div>
-		
-				<div class="col-xl-3 col-md-6 col-12">
-					<a href="https://floricolor.com/decoracao/">
-						<img src="/site/images/02_home/Produtos-Home-Decoracoes.webp" alt="Alma Collection" class="img-fluid">
-					</a>
-					<p class="text-center">Decoração</p>		
-				</div>
-		
-				<div class="col-xl-3 col-md-6 col-12">
-					<a href="https://floricolor.com/packaging/">
-						<img src="/site/images/02_home/Produtos-Home-Packaging.webp" alt="Alma Collection" class="img-fluid">
-					</a>
-					<p class="text-center">Packaging</p>		
-				</div>
-		
-				<div class="col-xl-3 col-md-6 col-12">
-					<a href="https://floricolor.com/impressoes/">
-						<img src="/site/images/02_home/Produtos-Home-Impressoes.webp" alt="Alma Collection" class="img-fluid">
-					</a>
-					<p class="text-center">Impressões</p>		
-				</div>
-		
-			</div>
-		</div>
+	<!-- ========= MODELOS ========= -->
 
-		<!-- ========= A FLORICOLOR ========= -->			
-
-		<div class="container-fluid eco-friendly p-4">
-			<div class="container">
-				<div class="row mt-5 mb-5">
-		
-					<div class="col-xl-6 col-md-6 col-sm-12 col-12">
-						<img src="/site/images/02_home/Eco-Friendly-Branco-Home.webp" alt="Floricolor" class="img-fluid">
-					</div>
-
-					<div class="col-12 col-xl-6 col-md-6 col-sm-12 align-self-center">
-						<h2 class="text-white text-left">SUSTENTABILIDADE</h2>
-						<p class="text-white">Faz parte dos nossos objetivos reduzir a pegada ambiental, melhorando o processo de produção e 
-							tornando-o progressivamente mais amigo do ambiente.
-							<br><br>
-							Com a impressão a jato de tinta JetPress 750S, não apenas temos tecnologia de impressão de 
-							qualidade superior, mas também somos muito mais amigáveis ao meio ambiente. A tecnologia de 
-							impressão a jato de tinta não utiliza o processo químico de revelação fotográfica.</p>
-					</div>				
-		
-				</div>
-			</div>
-		</div>
-
-	
-		<!-- ========= MODELOS ========= -->
-
-		<!-- <div class="container">
+	<!-- <div class="container">
 		
 			<div class="row mt-5 mb-3">		
 
@@ -350,18 +576,18 @@
 		</div> -->
 
 
-		<div>
-			<div id="includedContent-footer"></div> 
-		</div>
+	<div>
+		<div id="includedContent-footer"></div>
+	</div>
 
-		<!-- ========= SCRIPTS ANTES DO /BODY ========= -->
-	
-		<!-- Chamadas do Slick Carousel -->
-		<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<!-- ========= SCRIPTS ANTES DO /BODY ========= -->
 
-		<script>
-		$(document).ready(function() {
-			$('.classSlick').slick({          
+	<!-- Chamadas do Slick Carousel -->
+	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+	<script>
+		$(document).ready(function () {
+			$('.classSlick').slick({
 				accessibility: true,
 				adaptiveHeight: true,
 				autoplay: true,
@@ -379,9 +605,9 @@
 				speed: 500
 			});
 		});
-		</script>
+	</script>
 
-		<!-- <script>
+	<!-- <script>
 			// CHECA OS COOKIES E SE O USUÁRIO ESTÁ LOGADO
 
 			//var link = 'loginftp.html';
@@ -406,7 +632,9 @@
 			// });
 			</script> -->
 
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+		crossorigin="anonymous"></script>
 
-	</body>
+</body>
 </html>
